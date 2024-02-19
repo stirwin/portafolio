@@ -7,24 +7,12 @@ import { WorkGridItem } from '../../components/grid-item'
 
 import thumbFourPainters from '../../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../../public/images/works/modetokyo_eyecatch.png'
+import sap from '../../public/images/works/sap.png'
+import elixir from '../../public/images/works/elixir.png'
 import tecnoburgerimg from "../../public/images/works/tecnoburgerimg.png"
 import housebody from "../../public/images/works/housebodyimg.png"
 import metalmecanico from "../../public/images/works/metamecanico.png"
-
-
-
-
-
-
-
-
-
-
-
-
-
+import iferrum from '../../public/images/works/iferrum.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -32,7 +20,7 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
-
+   {/*PHP*/}
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={18} mb={4}>
@@ -55,7 +43,30 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+ 
+      {/*PHP*/}
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={18} mb={4}>
+          PHP
+        </Heading>
+      </Section>
 
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="Iferrum" title="Iferrum" thumbnail={iferrum}>
+          The Iferrum Application is a comprehensive tool designed to optimize academic management
+           </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="sap" title="Sap" thumbnail={sap}>
+          The Foundation's Psychological Care Service
+           Comfenalco Technological University in Cartagena        </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+
+       {/*BLENDER*/}
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={18} mb={4}>
@@ -79,7 +90,7 @@ const Works = () => (
         </Section>
       </SimpleGrid>
 
-
+      {/*FIGMA*/}
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={18} mb={4}>
@@ -96,27 +107,13 @@ const Works = () => (
         </Section>
 
         <Section>
-          <WorkGridItem id="login_figma" title="SnapPass" thumbnail={thumbModeTokyo}>
-          SnapPass is a login application that offers a quick and easy process for users. With SnapPass,
-           users can access their accounts online in seconds
+          <WorkGridItem id="Elixir" title="Elixir" thumbnail={elixir}>
+          It is a carefully designed sensory experience. Our store, meticulously modeled in Figma
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-        <Heading as="h3" fontSize={18} mb={4}>
-          PHP
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="sap" title="Sap" thumbnail={thumbMargelo}>
-          The Foundation's Psychological Care Service
-           Comfenalco Technological University in Cartagena        </WorkGridItem>
-        </Section>
-      </SimpleGrid>
+    
 
 
 

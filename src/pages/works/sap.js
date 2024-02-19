@@ -12,10 +12,10 @@ import {
   import Layout from '../../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Inkdrop">
+    <Layout title="Sap">
       <Container>
         <Title>
-          Sap <Badge>2022-2023</Badge>
+          Sap <Badge>2023</Badge>
         </Title>
         <P>
         is an academic-administrative unit attached to the Psychology Program,
@@ -39,8 +39,8 @@ import {
          
         </List>
   
-        <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+        <WorkImage src="/images/works/sap-image 1.png" alt="sap" />
+      
        
       </Container>
     </Layout>

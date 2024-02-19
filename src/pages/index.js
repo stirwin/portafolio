@@ -123,7 +123,7 @@ const Home = () => (
         </BioSection>
 
         <BioSection>
-          <BioYear>2022-2023</BioYear>
+          <BioYear>2022-present</BioYear>
           I work as a software developer at comfenalco technology
         </BioSection>
       </Section>
@@ -157,17 +157,7 @@ const Home = () => (
             </Link>
           </ListItem>
          
-          <ListItem>
-            <Link href="https://instagram.com/stirwin.cg" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @stirwin.cg
-              </Button>
-            </Link>
-          </ListItem>
+         
         </List>
 
       
