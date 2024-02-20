@@ -28,6 +28,8 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Stirwin castro" />
         <meta name="og:title" content="Stirwin castro" />
         <meta property="og:type" content="website" />
+        <meta property="og:description" content="¡Hola! Soy Stirwin Castro Gaviria, un apasionado desarrollador frontend con experiencia en la creación de experiencias web atractivas. Mi enfoque se centra en el diseño UI/UX y la implementación de soluciones innovadoras con tecnologías como React.js y Next.js. Explora mi portafolio para descubrir cómo transformo ideas en código y creo magia en la web. ¡Conéctate y descubre el mundo del desarrollo web con un toque creativo! 🚀✨" />
+        <meta property="og:image" content="https://i.ibb.co/Cbm4Q8z/card.png" />
       
         <title>Stirwin castro gaviria - Home</title>
       </Head>
