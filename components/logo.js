@@ -4,6 +4,7 @@ import FootprintIcon from './icons/footprint'
 import styled from '@emotion/styled'
 import Image from 'next/image'
 import Head from "next/head";
+import css from "@/styles/Home.module.css"
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -26,14 +27,12 @@ const LogoBox = styled.span`
 const Logo = () => {
   return (
     (<Link href="/" scroll={false}>
-      <Head>
-        <link rel="stylesheet" href="/css.css" />
-      </Head>
       <LogoBox >
         
         <Image 
             className="logo"
         src="/images/logo_10.svg"
+        alt="Logo de Stirwin Castro Gaviria"
         width={30}
         height={30}
 

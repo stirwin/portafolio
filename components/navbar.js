@@ -13,8 +13,11 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-  useColorModeValue
+  useColorModeValue,
+  chakra,
+  Image
 } from '@chakra-ui/react'
+//import Image from 'next/image'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
@@ -42,6 +45,9 @@ const MenuLink = forwardRef((props, ref) => (
   <Link ref={ref} as={NextLink} {...props} />
 ))
 
+
+
+MenuLink.displayName = 'MenuLink';
 const Navbar = props => {
   const { path } = props
 
@@ -65,7 +71,17 @@ const Navbar = props => {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-            <Logo />
+          <Link href="/" path={path}>
+          <Image
+          className='logo'
+              src="/images/stirwin_prueba.jpeg"
+              alt="Profile image"
+              borderRadius="full"
+              boxSize="26px"
+            />
+          </Link>
+       
+            
           </Heading>
         </Flex>
 

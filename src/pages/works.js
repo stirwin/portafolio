@@ -5,8 +5,8 @@ import { WorkGridItem } from '../../components/grid-item'
 
 
 
-import thumbFourPainters from '../../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../../public/images/works/menkiki_eyecatch.png'
+import isla from '../../public/images/works/isla noche.jpeg'
+import cuarto from '../../public/images/works/cuarto.jpeg'
 import sap from '../../public/images/works/sap.png'
 import elixir from '../../public/images/works/elixir.png'
 import tecnoburgerimg from "../../public/images/works/tecnoburgerimg.png"
@@ -20,7 +20,7 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
-   {/*PHP*/}
+   {/*Rect*/}
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={18} mb={4}>
@@ -60,7 +60,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="sap" title="Sap" thumbnail={sap}>
-          The Foundation's Psychological Care Service
+          The Foundation&apos;s Psychological Care Service
            Comfenalco Technological University in Cartagena        </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -76,16 +76,14 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbFourPainters}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="isla" title="Isla" thumbnail={isla}>
+          Low Poly Style Tropical Island in Blende
           </WorkGridItem>
         </Section>
 
         <Section>
-          <WorkGridItem id="walknote" title="walknote" thumbnail={thumbMenkiki}>
-          A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="cuarto" title="living room" thumbnail={cuarto}>
+          This project represents a room in low poly style
           </WorkGridItem>
         </Section>
       </SimpleGrid>

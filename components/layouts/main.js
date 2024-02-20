@@ -19,17 +19,16 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Stirwin castro" />
         <meta name="author" content="Stirwin castro" />
         <meta name="author" content="Stirwin castro" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="stirwin_prueba.jpeg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="twitter:title" content="Stirwin castro" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+      
+   
         <meta property="og:site_name" content="Stirwin castro" />
         <meta name="og:title" content="Stirwin castro" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+      
         <title>Stirwin castro gaviria - Home</title>
       </Head>
 

@@ -35,7 +35,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi, I'm an app developer based in Colombia.
+        Hi, I&apos;m an app developer based in Colombia.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -123,7 +123,7 @@ const Home = () => (
         </BioSection>
 
         <BioSection>
-          <BioYear>2022-present</BioYear>
+          <BioYear>2023-present</BioYear>
           I work as a software developer at comfenalco technology
         </BioSection>
       </Section>
